@@ -27,7 +27,7 @@ Built with **React**, **Tailwind CSS**, and state-managed using **Context API** 
 -   [React](https://reactjs.org/)
 -   [Tailwind CSS](https://tailwindcss.com/)
 -   Context API + useReducer (for state management)
--   Vite (or CRA — depending on your setup)
+-   Vite
 
 ---
 
