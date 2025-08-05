@@ -120,7 +120,7 @@ function evaluate({ currentDigit, operation, previousDigit }) {
             result = prev / curr;
             break;
     }
-    return result.toString();
+    return result.toFixed(2).toString();
 }
 
 const INTEGER_FORMATER = new Intl.NumberFormat("en-us", {
