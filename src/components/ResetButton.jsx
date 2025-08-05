@@ -11,7 +11,7 @@ const ResetButton = ({ content, className }) => {
             onMouseUp={() => setPressed((curr) => !curr)}
             onMouseLeave={() => setPressed(false)}
             className={twMerge(
-                "w-full h-full cursor-pointer",
+                "w-full h-full cursor-pointer tra",
                 className,
                 pressed && "scale-90"
             )}

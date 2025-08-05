@@ -16,7 +16,7 @@ const OperationButton = ({ content, className }) => {
             <button
                 type="button"
                 className={twMerge(
-                    "w-full text-[2rem] lg:text-[2.75rem] py-2 lg:py-0 relative rounded-md lg:rounded-xl z-50 before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:bottom-1 before:-z-10 before:rounded-md lg:before:rounded-xl before:transition-all before:duration-300 cursor-pointer",
+                    "w-full text-[2rem] lg:text-[2.75rem] py-2 lg:py-0 relative rounded-md lg:rounded-xl z-50 before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:bottom-1 before:-z-10 before:rounded-md lg:before:rounded-xl before:transition-all before:duration-300 cursor-pointer tra",
                     theme === 1
                         ? "bg-bg-key-alt-shadow-1 before:bg-bg-key-alt-1 text-text-alt-1 hover:before:bg-white"
                         : theme === 2

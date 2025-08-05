@@ -10,7 +10,7 @@ const EqualButton = ({ content, className }) => {
             onMouseDown={() => setPressed((curr) => !curr)}
             onMouseUp={() => setPressed((curr) => !curr)}
             onMouseLeave={() => setPressed(false)}
-            className={twMerge("w-full", className, pressed && "scale-90")}
+            className={twMerge("w-full tra", className, pressed && "scale-90")}
             onClick={() => dispatch({ type: "evaluate" })}
         >
             <button
