@@ -1,13 +1,82 @@
-# React + Vite
+# 💡 Calculator App — Frontend Mentor Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive, accessible, and theme-switchable calculator built as a solution to the [Frontend Mentor Calculator App Challenge](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29).  
+Built with **React**, **Tailwind CSS**, and state-managed using **Context API** + **useReducer**.
 
-Currently, two official plugins are available:
+> 🔗 [Live Demo](https://fm-calculator-app-mridul.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Calculator Preview](/public/preview.jpg)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# FM-calculator-app-main
+## 🚀 Features
+
+-   ✅ Fully functional calculator
+-   🎨 3 switchable themes with animated toggle
+-   🧠 Smart evaluation using reducer logic
+-   🧮 Supports: +, –, ×, ÷, decimal
+-   🧼 Clear (DEL) and Reset (AC) functionality
+-   🖱️ Mouse and ⌨️ Keyboard input supported
+-   📱 Responsive for all devices
+-   ♿ Accessible markup and good contrast
+
+---
+
+## 🛠️ Built With
+
+-   [React](https://reactjs.org/)
+-   [Tailwind CSS](https://tailwindcss.com/)
+-   Context API + useReducer (for state management)
+-   Vite (or CRA — depending on your setup)
+
+---
+
+## 📦 Installation & Running Locally
+
+```bash
+git clone https://github.com/your-username/fm-calculator-app.git
+cd fm-calculator-app
+npm install
+npm run dev
+
+## 📸 Screenshots
+
+All screenshots are located in the `public/screenshots/` folder.
+
+### 🖥️ Desktop Themes
+
+- **Theme 1**
+  ![Desktop Theme 1](./screenshots/desktop-design-theme-1.jpg)
+- **Theme 2**
+  ![Desktop Theme 2](./screenshots/desktop-design-theme-2.jpg)
+- **Theme 3**
+  ![Desktop Theme 3](./screenshots/desktop-design-theme-3.jpg)
+
+### 📱 Mobile Themes
+
+- **Theme 1**
+  ![Mobile Theme 1](./screenshots/mobile-design-theme-1.jpg)
+- **Theme 2**
+  ![Mobile Theme 2](./screenshots/mobile-design-theme-2.jpg)
+- **Theme 3**
+  ![Mobile Theme 3](./screenshots/mobile-design-theme-3.jpg)
+
+## What I Learned
+
+- How to manage complex UI logic using React useReducer
+- Using Context API for clean global state
+- Building a dark/light/mid theme toggle with Tailwind
+- Mouse event handling in React
+- Responsive layout design using Tailwind CSS
+
+## Challenge From
+
+This project is part of the [Frontend Mentor](https://www.frontendmentor.io/) challenge.
+If you're learning frontend development, their challenges are great practice!
+
+## Author
+
+- **Arafat Mridul**
+- GitHub: [Arafat Mridul](https://github.com/ArafatMridul)
+- Frontend Mentor: [Mridul](https://www.frontendmentor.io/profile/ArafatMridul)
+```
