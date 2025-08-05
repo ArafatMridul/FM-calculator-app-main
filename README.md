@@ -47,20 +47,20 @@ All screenshots are located in the `public/screenshots/` folder.
 ### 🖥️ Desktop Themes
 
 -   **Theme 1**
-    ![Desktop Theme 1](./screenshots/desktop-design-theme-1.jpg)
+    ![Desktop Theme 1](./public/screenshots/desktop-design-theme-1.jpg)
 -   **Theme 2**
-    ![Desktop Theme 2](./screenshots/desktop-design-theme-2.jpg)
+    ![Desktop Theme 2](./public/screenshots/desktop-design-theme-2.jpg)
 -   **Theme 3**
-    ![Desktop Theme 3](./screenshots/desktop-design-theme-3.jpg)
+    ![Desktop Theme 3](./public/screenshots/desktop-design-theme-3.jpg)
 
 ### 📱 Mobile Themes
 
 -   **Theme 1**
-    ![Mobile Theme 1](./screenshots/mobile-design-theme-1.jpg)
+    ![Mobile Theme 1](./public/screenshots/mobile-design-theme-1.jpg)
 -   **Theme 2**
-    ![Mobile Theme 2](./screenshots/mobile-design-theme-2.jpg)
+    ![Mobile Theme 2](./public/screenshots/mobile-design-theme-2.jpg)
 -   **Theme 3**
-    ![Mobile Theme 3](./screenshots/mobile-design-theme-3.jpg)
+    ![Mobile Theme 3](./public/screenshots/mobile-design-theme-3.jpg)
 
 ## What I Learned
 
