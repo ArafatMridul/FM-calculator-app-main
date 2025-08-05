@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+    /* THEME 1 */
+    --color-bg-main-1: hsl(222, 26%, 31%);
+    --color-bg-toggle-1: hsl(223, 31%, 20%);
+    --color-bg-screen-1: hsl(224, 36%, 15%);
+    --color-bg-key-1: hsl(225, 21%, 49%);
+    --color-bg-key-shadow-1: hsl(224, 28%, 35%);
+    --color-bg-key-toggle-1: hsl(6, 63%, 50%);
+    --color-bg-key-toggle-shadow-1: hsl(6, 70%, 34%);
+    --color-bg-key-alt-1: hsl(0, 0%, 90%);
+    --color-bg-key-alt-shadow-1: hsl(28, 16%, 65%);
+    --color-text-main-1: hsl(0, 100%, 100%);
+    --color-text-alt-1: hsl(221, 14%, 31%);
+
+    /* THEME 2 */
+    --color-bg-main-2: hsl(0, 0%, 90%);
+    --color-bg-toggle-2: hsl(0, 5%, 81%);
+    --color-bg-screen-2: hsl(0, 0%, 93%);
+    --color-bg-key-2: hsl(185, 42%, 37%);
+    --color-bg-key-shadow-2: hsl(185, 58%, 25%);
+    --color-bg-key-toggle-2: hsl(25, 98%, 40%);
+    --color-bg-key-toggle-shadow-2: hsl(25, 99%, 27%);
+    --color-bg-key-alt-2: hsl(0, 0%, 90%);
+    --color-bg-key-alt-shadow-2: hsl(35, 11%, 61%);
+    --color-text-main-2: hsl(60, 10%, 19%);
+    --color-text-alt-2: hsl(0, 100%, 100%);
+
+    /* THEME 3 */
+    --color-bg-main-3: hsl(268, 75%, 9%);
+    --color-bg-toggle-3: hsl(268, 71%, 12%);
+    --color-bg-screen-3: hsl(268, 71%, 12%);
+    --color-bg-key-3: hsl(281, 89%, 26%);
+    --color-bg-key-shadow-3: hsl(285, 91%, 52%);
+    --color-bg-key-toggle-3: hsl(176, 100%, 44%);
+    --color-bg-key-toggle-shadow-3: hsl(177, 92%, 70%);
+    --color-bg-key-alt-3: hsl(268, 47%, 21%);
+    --color-bg-key-alt-shadow-3: hsl(290, 70%, 36%);
+    --color-text-main-3: hsl(52, 100%, 62%);
+    --color-text-alt-3: hsl(198, 20%, 13%);
+    --color-text-white-3: hsl(0, 100%, 100%);
+
+    --font-ls: "League Spartan", sans-serif;
+}
+
+@layer utilities {
+    .wrapper {
+        @apply max-w-[540px] mx-6 md:mx-auto;
+    }
+
+    .tra {
+        @apply transition-all duration-300 ease-in-out;
+    }
+}
