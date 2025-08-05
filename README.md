@@ -34,7 +34,7 @@ Built with **React**, **Tailwind CSS**, and state-managed using **Context API** 
 ## 📦 Installation & Running Locally
 
 ```bash
-git clone https://github.com/your-username/fm-calculator-app.git
+git clone https://github.com/ArafatMridul/FM-calculator-app-main.git
 cd fm-calculator-app
 npm install
 npm run dev
