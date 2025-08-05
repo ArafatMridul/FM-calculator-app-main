@@ -127,7 +127,9 @@ function evaluate({ currentDigit, operation, previousDigit }) {
             result = prev / curr;
             break;
     }
-    return result.toFixed(2).toString();
+    return Number.isInteger(result)
+        ? result.toString()
+        : result.toFixed(2).toString();
 }
 
 const INTEGER_FORMATER = new Intl.NumberFormat("en-us", {
