@@ -38,6 +38,7 @@ git clone https://github.com/your-username/fm-calculator-app.git
 cd fm-calculator-app
 npm install
 npm run dev
+```
 
 ## 📸 Screenshots
 
@@ -45,29 +46,29 @@ All screenshots are located in the `public/screenshots/` folder.
 
 ### 🖥️ Desktop Themes
 
-- **Theme 1**
-  ![Desktop Theme 1](./screenshots/desktop-design-theme-1.jpg)
-- **Theme 2**
-  ![Desktop Theme 2](./screenshots/desktop-design-theme-2.jpg)
-- **Theme 3**
-  ![Desktop Theme 3](./screenshots/desktop-design-theme-3.jpg)
+-   **Theme 1**
+    ![Desktop Theme 1](./screenshots/desktop-design-theme-1.jpg)
+-   **Theme 2**
+    ![Desktop Theme 2](./screenshots/desktop-design-theme-2.jpg)
+-   **Theme 3**
+    ![Desktop Theme 3](./screenshots/desktop-design-theme-3.jpg)
 
 ### 📱 Mobile Themes
 
-- **Theme 1**
-  ![Mobile Theme 1](./screenshots/mobile-design-theme-1.jpg)
-- **Theme 2**
-  ![Mobile Theme 2](./screenshots/mobile-design-theme-2.jpg)
-- **Theme 3**
-  ![Mobile Theme 3](./screenshots/mobile-design-theme-3.jpg)
+-   **Theme 1**
+    ![Mobile Theme 1](./screenshots/mobile-design-theme-1.jpg)
+-   **Theme 2**
+    ![Mobile Theme 2](./screenshots/mobile-design-theme-2.jpg)
+-   **Theme 3**
+    ![Mobile Theme 3](./screenshots/mobile-design-theme-3.jpg)
 
 ## What I Learned
 
-- How to manage complex UI logic using React useReducer
-- Using Context API for clean global state
-- Building a dark/light/mid theme toggle with Tailwind
-- Mouse event handling in React
-- Responsive layout design using Tailwind CSS
+-   How to manage complex UI logic using React useReducer
+-   Using Context API for clean global state
+-   Building a dark/light/mid theme toggle with Tailwind
+-   Mouse event handling in React
+-   Responsive layout design using Tailwind CSS
 
 ## Challenge From
 
@@ -76,7 +77,6 @@ If you're learning frontend development, their challenges are great practice!
 
 ## Author
 
-- **Arafat Mridul**
-- GitHub: [Arafat Mridul](https://github.com/ArafatMridul)
-- Frontend Mentor: [Mridul](https://www.frontendmentor.io/profile/ArafatMridul)
-```
+-   **Arafat Mridul**
+-   GitHub: [Arafat Mridul](https://github.com/ArafatMridul)
+-   Frontend Mentor: [Mridul](https://www.frontendmentor.io/profile/ArafatMridul)
